@@ -6,7 +6,6 @@ This will be the a project to create the administrative UI to work with StartUpA
 
 
 # Frameworks / Libraries / Languages
-
-*[Bootstrap](http://getbootstrap.com)
-*[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-*[React](https://facebook.github.io/react/)
+  * [Bootstrap](http://getbootstrap.com)
+  * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  * [React](https://facebook.github.io/react/)
