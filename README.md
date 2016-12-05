@@ -1,6 +1,6 @@
 # Call for proposals
 
-Let's build a site to accept calls for proposals (CFP)
+Let's build a site to accept calls for proposals (CFP) to be part of http://www.speakerforce.com/
 
 This will be the a project to create the administrative UI to work with StartUpApi and MeetUp.
 
