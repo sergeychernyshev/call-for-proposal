@@ -3,6 +3,8 @@
 Let's build a site to accept calls for proposals (CFP) to be part of http://www.speakerforce.com/
 
 This will be the a project to create the administrative UI to work with StartUpApi and MeetUp.
+It will be integrated into SpeakerForce.com site similarly to a raffle tool:
+https://github.com/sergeychernyshev/raffle
 
 We will start with two flows, one for meetup organizer to create a call for proposals and another is for potential speakers to submit their info and talk info.
 
