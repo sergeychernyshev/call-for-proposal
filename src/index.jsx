@@ -33,7 +33,7 @@ class App extends React.Component {
 
         {this.props.children}
 
-        <Navbar className="footer" style={{bottom: 0, position: 'absolute', width: '100%'}}>
+        <Navbar className="footer" style={{borderBottom: 0, marginBottom: 0, bottom: 0, position: 'absolute', width: '100%'}}>
           <Nav pullRight>
             <NavItem eventKey={1} href="https://bootswatch.com/lumen/">Lumen Bootstrap Theme</NavItem>
           </Nav>
