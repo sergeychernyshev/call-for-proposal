@@ -49,7 +49,7 @@ render((
     <Route path="/" component={App}>
       <IndexRoute component={CallForProposals} ignoreScrollBehavior={true}/>
       <Route path="/:meetupSlug/speak" component={SpeakerProposalForm}/>
-      <Route path="/call" component={OrganizerForm}/>
+      <Route path="/call-for-proposals" component={OrganizerForm}/>
     </Route>
   </Router>
 ), document.getElementById('app'))

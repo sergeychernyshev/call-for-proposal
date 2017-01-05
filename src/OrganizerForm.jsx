@@ -8,7 +8,7 @@ export default class OrganizerForm extends React.Component {
   render() {
     return (
       <Grid fluid>
-        <h1>Call for Proposals</h1>
+        <h1>Invite Speakers</h1>
         <p>Invite people to speak at your events</p>
       </Grid>
     );

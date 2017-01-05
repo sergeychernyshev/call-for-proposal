@@ -12,8 +12,8 @@ export default class CallForProposals extends React.Component {
         <p>Propose a talk at a local meetup</p>
         <Row>
           <ul>
-          <li><Link to="/1234er/speak">Speak</Link></li>
-          <li><Link to="/call">Organizer? Request proposals.</Link></li>
+          <li><Link to="/1234er/speak">Speak at events</Link></li>
+          <li><Link to="/call-for-proposals">Organizer? Request proposals.</Link></li>
           </ul>
         </Row>
       </Grid>

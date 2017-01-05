@@ -17,7 +17,7 @@ app.use(webpackMiddleware(webpack(config), {
 }));
 
 // HTML
-app.get('/', (request, response) => {
+app.get('*', (request, response) => {
   response.sendFile(path.dirname(__dirname) + '/index.html');
 });
 
