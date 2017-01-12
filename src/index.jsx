@@ -2,12 +2,13 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, browserHistory, IndexRoute, Link} from 'react-router'
 import { Provider } from 'react-redux'
+import { LinkContainer } from 'react-router-bootstrap'
 
 import CallForProposals from './CallForProposals.jsx'
 import SpeakerProposalForm from './SpeakerProposalForm.jsx'
 import OrganizerForm from './OrganizerForm.jsx'
 
-import { Nav, Navbar, NavItem } from 'react-bootstrap';
+import { Nav, Navbar, NavItem } from 'react-bootstrap'
 
 class App extends React.Component {
   render() {
@@ -22,7 +23,9 @@ class App extends React.Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1} href="/">Call for Proposals</NavItem>
+              <LinkContainer to={{ pathname: '/' }}>
+                <NavItem href="/">Call for Proposals</NavItem>
+              </LinkContainer>
             </Nav>
             <Nav pullRight>
               <NavItem eventKey={1} href="/users/edit.php">My Account</NavItem>
