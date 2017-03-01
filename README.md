@@ -34,7 +34,7 @@ Home page of CFP app (e.g. /) will provide two options to log in, one for an org
   * Twitter handle
   * Short bio (one paragraph)
   * Portrait photo (high res) - (upload widget)
-  * Personal URL (email field) - (URL field)
+  * Personal URL - (URL field)
   * Company affiliation
   * Company URL - (URL field)
   * Position title
